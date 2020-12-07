@@ -6,5 +6,5 @@ function testFunc() {
 
 function superBowlWin(record){
   let r = record.find(re => re.result)
-  return r
+  return r ? r.year
 }
